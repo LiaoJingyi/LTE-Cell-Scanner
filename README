@@ -5,7 +5,7 @@ LTE Cell Scanner / Tracker
 This is a collection of tools to locate and track LTE basestation cells using
 very low performance RF front ends. For example, these tools work with RTL2832
 based dongles (E4000, R820T, etc.) which have a noise figure of 20dB, only 8
-bits in the A/D, and a crystal with a frequency error of about 100 ppm.
+bits in the A/D, and a crystal with a frequency error of about 100 ppm [1].
 
 The 'CellSearch' program can be used to search for LTE carriers within a range
 of frequencies.  Once an LTE frequency has been located, 'LTE-Tracker' can be
@@ -43,3 +43,6 @@ Search for LTE carriers within a common LTE frequency range used in the US:
 Start tracking LTE cells on frequency 739 MHz:
   LTE-Tracker -f 739000000
 
+------
+annotation
+[1] ppm is short for 'parts per million', which is 0.01%.
